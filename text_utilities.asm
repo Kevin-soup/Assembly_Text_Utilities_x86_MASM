@@ -1,10 +1,7 @@
-TITLE Proj6_link2.asm     (Proj6_link2.asm)
+Assembly Text Utilities (x86, MASM)  
 
 ; Author: Kevin Lin
 ; Last Modified: 03/12/2025
-; OSU email address: link2@oregonstate.edu
-; Course number/section:   CS271 Section 400
-; Project Number: 6                Due Date: 03/16/2025
 ; Description: This program stores temperature measurements from a file, convert each ASCII character into signed 
 ;	integers, and then prints them out in reverse order. Scenerio: an intern recording thermometer data messed up. 
 ;	The readings are good, but the order is reversed. This program was designed to correct the issue.
@@ -15,7 +12,7 @@ INCLUDE Irvine32.inc
 ;--------------------------------------------------------------------------------------------
 ; Name: mGetString
 ;
-; Description: Display a prompt and then get the user’s keyboard input into a memory location.
+; Description: Display a prompt and then get the userâ€™s keyboard input into a memory location.
 ;	 
 ; Precondition: none.
 ;
@@ -454,3 +451,4 @@ WriteVal ENDP
 
 
 END main
+
